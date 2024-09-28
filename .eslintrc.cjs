@@ -1,14 +1,7 @@
-module.exports = {
-  root: true,
-  extends: ['@nuxt/eslint-config'],
-  ignorePatterns: [
-    'dist',
-    'node_modules',
-    '.output',
-    '.nuxt'
-  ],
-  rules: {
-    'vue/max-attributes-per-line': 'off',
-    'vue/multi-word-component-names': 'off'
+{
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
